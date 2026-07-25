@@ -1,1 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+
+    font-family:Inter,sans-serif;
+
+    background:
+    radial-gradient(circle at top,#19204d,#05070f 65%);
+
+    color:white;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+.hero{
+
+    text-align:center;
+
+    z-index:2;
+
+}
+
+.logo{
+
+    letter-spacing:8px;
+
+    font-size:.9rem;
+
+    color:#8cb4ff;
+
+    margin-bottom:25px;
+
+}
+
+h1{
+
+    font-size:5rem;
+
+    line-height:1;
+
+    margin-bottom:25px;
+
+}
+
+p{
+
+    color:#9ea9c8;
+
+    font-size:1.2rem;
+
+    max-width:600px;
+
+    margin:auto auto 40px;
+
+}
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    background:white;
+
+    color:black;
+
+    padding:18px 42px;
+
+    border-radius:100px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+#stars{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    radial-gradient(white 1px,transparent 1px);
+
+    background-size:70px 70px;
+
+    opacity:.25;
+
+}
